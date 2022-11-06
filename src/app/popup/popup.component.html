@@ -1,0 +1,12 @@
+<button class="btn btn-primary d-block m-auto mb-3" (click)="showPopup()">Click Me</button>
+<div *ngIf="popup">
+    <div class="popup" *ngIf="off">
+        <span (click)="offPopup()">X</span>
+        <h2>Create New Record</h2>
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" #name placeholder="name">
+        </div>
+        <button class="btn btn-secondary save m-4" (click)="saveData(name.value)">Save</button>
+    </div>
+</div>

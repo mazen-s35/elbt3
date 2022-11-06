@@ -1,0 +1,31 @@
+.popup {
+    display: block;
+    margin: 10px auto;
+    background-color: #fff;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .1);
+    width: 18rem;
+    span {
+        display: block;
+        text-align: end;
+        padding: 5px;
+        cursor: pointer;
+    }
+    h2 {
+        color: #333;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        // padding: 8px;
+        width: 90%;
+    }
+    .save {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+}
